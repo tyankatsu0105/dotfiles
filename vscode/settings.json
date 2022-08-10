@@ -1,0 +1,7 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.fontFamily": "Space Mono for Powerline",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
