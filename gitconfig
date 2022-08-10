@@ -1,0 +1,8 @@
+[alias]
+  aa = add --all
+  co = checkout
+  b = branch
+[include]
+  path = .gitconfig.local
+[init]
+  defaultBranch = main

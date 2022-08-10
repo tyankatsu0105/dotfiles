@@ -1,0 +1,6 @@
+[user]
+       name = tyankatsu0105
+       email = tyankatsu0105@users.noreply.github.com
+       signingkey = AAAAAAAA
+[commit]
+       gpgsign = true
