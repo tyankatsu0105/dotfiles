@@ -104,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias reload="source ~/.zshrc"
+alias nr="npm run"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 

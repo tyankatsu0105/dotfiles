@@ -3,5 +3,6 @@
   "terminal.integrated.fontFamily": "Space Mono for Powerline",
   "editor.fontFamily": "JetBrains Mono",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDragAndDrop": false
 }
