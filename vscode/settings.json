@@ -4,5 +4,9 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "errorLens.messageTemplate": "($source) $message",
+  "explorer.compactFolders": false,
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true
 }
