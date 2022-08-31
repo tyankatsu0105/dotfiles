@@ -23,5 +23,7 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "typescript.referencesCodeLens.enabled": true,
+  "workbench.startupEditor": "none"
 }
