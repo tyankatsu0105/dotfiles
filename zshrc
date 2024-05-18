@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export GPG_TTY=$TTY
+# Install YJIT Support Ruby
+export RUBY_CONFIGURE_OPTS=--enable-yjit
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -114,5 +117,16 @@ alias nr="npm run"
 prompt_context() {
   prompt_segment black default "( ᐛ👐)"
 }
+
+# vscodeのdevcontainerでgit操作可能にする
+# if [ -z "$SSH_AUTH_SOCK" ]; then
+#    # Check for a currently running instance of the agent
+#    RUNNING_AGENT="`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`"
+#    if [ "$RUNNING_AGENT" = "0" ]; then
+#         # Launch a new instance of the agent
+#         ssh-agent -s &> $HOME/.ssh/ssh-agent
+#    fi
+#    eval `cat $HOME/.ssh/ssh-agent`
+# fi
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
