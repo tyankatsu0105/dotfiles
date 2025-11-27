@@ -26,8 +26,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # https://github.com/agkozak/zsh-z
 git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
 
-# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+brew install asdf
 
 # gpgのpass phraseを毎回聞かれないようにする
 brew install pinentry-mac

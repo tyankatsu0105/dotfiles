@@ -1,8 +1,6 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-. "$HOME/.asdf/asdf.sh"
-# asdf の補完（zsh）
-fpath=(${ASDF_DIR}/completions $fpath)
+. "$(brew --prefix asdf)/libexec/asdf.sh"
+
+# zshの補完機能をロード & 初期化
 autoload -Uz compinit
 compinit
 
