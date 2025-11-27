@@ -1,5 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+. "$HOME/.asdf/asdf.sh"
+# asdf の補完（zsh）
+fpath=(${ASDF_DIR}/completions $fpath)
+autoload -Uz compinit
+compinit
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -78,7 +83,6 @@ plugins=(
   git
   zsh-autosuggestions
   z
-  asdf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -108,6 +112,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias reload="source ~/.zshrc"
 alias nr="npm run"
+
+function cpr() { gh pr create -B $1 -w }
+
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
@@ -130,3 +137,4 @@ prompt_context() {
 # fi
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
