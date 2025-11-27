@@ -71,5 +71,6 @@
     "files.trimFinalNewlines": true,
     "editor.rulers": [120],
     "editor.semanticHighlighting.enabled": true
-  }
+  },
+  "github.copilot.nextEditSuggestions.enabled": true
 }
