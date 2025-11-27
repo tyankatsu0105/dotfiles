@@ -40,7 +40,6 @@
     "identifier": "asdf"
   },
   "git.autofetch": true,
-  "rubyLsp.enableExperimentalFeatures": true,
   "rubyLsp.enabledFeatures": {
     "codeActions": true,
     "diagnostics": true,
@@ -72,5 +71,13 @@
     "editor.rulers": [120],
     "editor.semanticHighlighting.enabled": true
   },
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Conventional Commitsの形式でコミットメッセージを生成してください。"
+    },
+    {
+      "text": "日本語でコミットメッセージを生成してください。"
+    }
+  ]
 }
