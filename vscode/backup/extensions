@@ -3,6 +3,7 @@ biomejs.biome
 cweijan.dbclient-jdbc
 cweijan.vscode-database-client2
 dbaeumer.vscode-eslint
+docker.docker
 dsznajder.es7-react-js-snippets
 esbenp.prettier-vscode
 github.copilot
@@ -15,7 +16,7 @@ rooveterinaryinc.roo-cline
 shopify.ruby-lsp
 sleepingsaint.gitignore-generator
 styled-components.vscode-styled-components
+unifiedjs.vscode-mdx
 usernamehw.errorlens
 vitest.explorer
 vscode-icons-team.vscode-icons
-yzhang.markdown-all-in-one

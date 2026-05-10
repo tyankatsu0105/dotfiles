@@ -7,5 +7,15 @@
   {
     "key": "shift+cmd+z",
     "command": "-redo"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "workbench.action.chat.submit",
+    "when": "chatInputHasText && chatSessionOptionsValid && inChatInput && !chatSessionRequestInProgress && !withinEditSessionDiff || chatInputHasText && chatSessionOptionsValid && inChatInput && !withinEditSessionDiff && chatEditingSentRequest == 's'"
+  },
+  {
+    "key": "enter",
+    "command": "-workbench.action.chat.submit",
+    "when": "chatInputHasText && chatSessionOptionsValid && inChatInput && !chatSessionRequestInProgress && !withinEditSessionDiff || chatInputHasText && chatSessionOptionsValid && inChatInput && !withinEditSessionDiff && chatEditingSentRequest == 's'"
   }
 ]

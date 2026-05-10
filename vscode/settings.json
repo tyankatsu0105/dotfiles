@@ -1,5 +1,4 @@
 {
-  "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.fontFamily": "Space Mono for Powerline",
   "editor.fontFamily": "JetBrains Mono",
   "editor.formatOnSave": true,
@@ -10,19 +9,19 @@
   "editor.minimap.enabled": false,
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
+    "source.fixAll.eslint": "explicit"
   },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "vue",
+    "vue"
   ],
   "eslint.workingDirectories": [
     {
-      "mode": "auto",
-    },
+      "mode": "auto"
+    }
   ],
   "js/ts.referencesCodeLens.enabled": true,
   "workbench.startupEditor": "none",
@@ -32,12 +31,12 @@
     "plaintext": true,
     "markdown": true,
     "scminput": false,
-    "yaml": true,
+    "yaml": true
   },
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "workbench.colorTheme": "Dark+",
   "rubyLsp.rubyVersionManager": {
-    "identifier": "auto",
+    "identifier": "auto"
   },
   "git.autofetch": true,
   "rubyLsp.enabledFeatures": {
@@ -57,7 +56,7 @@
     "codeLens": true,
     "definition": true,
     "workspaceSymbol": true,
-    "signatureHelp": true,
+    "signatureHelp": true
   },
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
@@ -69,16 +68,20 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.rulers": [120],
-    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticHighlighting.enabled": true
   },
-  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.semanticHighlighting.enabled": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "text": "Conventional Commitsの形式でコミットメッセージを生成してください。",
+      "text": "Conventional Commitsの形式でコミットメッセージを生成してください。"
     },
     {
-      "text": "日本語でコミットメッセージを生成してください。",
+      "text": "日本語でコミットメッセージを生成してください。"
     },
+    {
+      "text": "descriptionに当たる箇所は日本語で書いてください"
+    }
   ],
   "roo-cline.allowedCommands": [
     "git log",
@@ -111,18 +114,35 @@
     "perl",
     "open"
   ],
-  "roo-cline.deniedCommands": [],
   "gitlens.ai.model": "gitkraken",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-  "workbench.activityBar.location": "top",
   "rubyLsp.rubyExecutablePath": "/lincwell/packs/clinic_rest_api/app/serializers/components/user_orca_patient_serializer.rb",
   "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.svg": "default",
+    "*.svg": "default"
   },
-  "roo-cline.debug": false,
   "git.confirmSync": false,
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "workbench.activityBar.location": "top",
+  "window.commandCenter": false,
+  "workbench.iconTheme": "vscode-icons",
+  "chat.agent.enabled": true,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "roo-cline.deniedCommands": [],
+  "roo-cline.debug": false,
+  "chat.autoReply": true,
+  "chat.checkpoints.showFileChanges": true,
+  "chat.hookFilesLocations": {
+    ".claude/settings.local.json": false,
+    ".claude/settings.json": false,
+    "~/.copilot/hooks": false,
+    "~/.claude/settings.json": false
+  },
+  "docker.extension.enableComposeLanguageServer": false,
   "json.schemaDownload.trustedDomains": {
     "https://schemastore.azurewebsites.net/": true,
     "https://raw.githubusercontent.com/microsoft/vscode/": true,
@@ -131,7 +151,7 @@
     "https://json.schemastore.org/": true,
     "https://json-schema.org/": true,
     "https://developer.microsoft.com/json-schemas/": true,
-    "https://biomejs.dev": true,
+    "https://biomejs.dev": true
   },
   "chat.tools.terminal.autoApprove": {
     "cd": true,
@@ -256,6 +276,5 @@
     "eval": false,
     "Invoke-Expression": false,
     "iex": false
-  },
-  "terminal.integrated.defaultProfile.osx": "zsh"
+  }
 }
