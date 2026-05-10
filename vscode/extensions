@@ -1,4 +1,6 @@
 andys8.jest-snippets
+apollographql.vscode-apollo
+bierner.markdown-mermaid
 biomejs.biome
 cweijan.dbclient-jdbc
 cweijan.vscode-database-client2
@@ -6,10 +8,17 @@ dbaeumer.vscode-eslint
 docker.docker
 dsznajder.es7-react-js-snippets
 esbenp.prettier-vscode
-github.copilot
-github.copilot-chat
+github.github-vscode-theme
 github.vscode-github-actions
 golang.go
+graphql.vscode-graphql
+graphql.vscode-graphql-syntax
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+ms-ceintl.vscode-language-pack-ja
+ms-vscode-remote.remote-containers
+ms-vscode.live-server
+ms-vscode.vscode-chat-customizations-evaluations
 orta.vscode-jest
 redhat.vscode-yaml
 rooveterinaryinc.roo-cline

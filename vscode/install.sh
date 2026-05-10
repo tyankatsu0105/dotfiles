@@ -1,23 +1,19 @@
 #!/bin/sh
 SCRIPT_DIR=$(cd $(dirname $0) && pwd)
-VSCODE_SETTING_DIR=~/Library/Application\ Support/Code/User
 
-# backup
-mkdir "$SCRIPT_DIR/backup"
-cp "$VSCODE_SETTING_DIR/settings.json" "$SCRIPT_DIR/backup"
-cp "$VSCODE_SETTING_DIR/keybindings.json" "$SCRIPT_DIR/backup"
-code --list-extensions > "$SCRIPT_DIR/backup/extensions"
+# check if 'code' command is available
+if ! command -v code &> /dev/null; then
+  echo "Installing 'code' command..."
+  VSCODE_PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code"
+  if [ -f "$VSCODE_PATH" ]; then
+    sudo ln -sf "$VSCODE_PATH" /usr/local/bin/code
+    echo "'code' command installed successfully"
+  else
+    echo "Error: VS Code not found at $VSCODE_PATH"
+    exit 1
+  fi
+fi
 
-
-rm "$VSCODE_SETTING_DIR/settings.json"
-ln -s "$SCRIPT_DIR/settings.json" "${VSCODE_SETTING_DIR}/settings.json"
-
-rm "$VSCODE_SETTING_DIR/keybindings.json"
-ln -s "$SCRIPT_DIR/keybindings.json" "${VSCODE_SETTING_DIR}/keybindings.json"
-
-cat ./extensions | while read line
-do
- code --install-extension $line
-done
-
-code --list-extensions > extensions
+sh "$SCRIPT_DIR/scripts/settings.sh"
+sh "$SCRIPT_DIR/scripts/keybindings.sh"
+sh "$SCRIPT_DIR/scripts/extensions.sh"
