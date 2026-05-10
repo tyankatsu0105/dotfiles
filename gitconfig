@@ -8,3 +8,6 @@
   defaultBranch = main
 [core]
 	excludesfile = ~/.gitignore_global
+[user]
+	name = tyankatsu0105
+	email = 28397593+tyankatsu0105@users.noreply.github.com

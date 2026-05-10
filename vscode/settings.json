@@ -9,19 +9,19 @@
   "editor.minimap.enabled": false,
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
   },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "vue"
+    "vue",
   ],
   "eslint.workingDirectories": [
     {
-      "mode": "auto"
-    }
+      "mode": "auto",
+    },
   ],
   "js/ts.referencesCodeLens.enabled": true,
   "workbench.startupEditor": "none",
@@ -31,12 +31,12 @@
     "plaintext": true,
     "markdown": true,
     "scminput": false,
-    "yaml": true
+    "yaml": true,
   },
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "workbench.colorTheme": "Dark+",
   "rubyLsp.rubyVersionManager": {
-    "identifier": "auto"
+    "identifier": "auto",
   },
   "git.autofetch": true,
   "rubyLsp.enabledFeatures": {
@@ -56,7 +56,7 @@
     "codeLens": true,
     "definition": true,
     "workspaceSymbol": true,
-    "signatureHelp": true
+    "signatureHelp": true,
   },
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
@@ -68,20 +68,20 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.rulers": [120],
-    "editor.semanticHighlighting.enabled": true
+    "editor.semanticHighlighting.enabled": true,
   },
   "editor.semanticHighlighting.enabled": true,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "text": "Conventional Commitsの形式でコミットメッセージを生成してください。"
+      "text": "Conventional Commitsの形式でコミットメッセージを生成してください。",
     },
     {
-      "text": "日本語でコミットメッセージを生成してください。"
+      "text": "日本語でコミットメッセージを生成してください。",
     },
     {
-      "text": "descriptionに当たる箇所は日本語で書いてください"
-    }
+      "text": "descriptionに当たる箇所は日本語で書いてください",
+    },
   ],
   "roo-cline.allowedCommands": [
     "git log",
@@ -112,7 +112,7 @@
     "make",
     "bash",
     "perl",
-    "open"
+    "open",
   ],
   "gitlens.ai.model": "gitkraken",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
@@ -120,7 +120,7 @@
   "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.svg": "default"
+    "*.svg": "default",
   },
   "git.confirmSync": false,
   "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
@@ -129,7 +129,7 @@
   "workbench.iconTheme": "vscode-icons",
   "chat.agent.enabled": true,
   "chat.instructionsFilesLocations": {
-    ".github/instructions": true
+    ".github/instructions": true,
   },
   "github.copilot.nextEditSuggestions.enabled": true,
   "roo-cline.deniedCommands": [],
@@ -140,7 +140,7 @@
     ".claude/settings.local.json": false,
     ".claude/settings.json": false,
     "~/.copilot/hooks": false,
-    "~/.claude/settings.json": false
+    "~/.claude/settings.json": false,
   },
   "docker.extension.enableComposeLanguageServer": false,
   "json.schemaDownload.trustedDomains": {
@@ -151,7 +151,7 @@
     "https://json.schemastore.org/": true,
     "https://json-schema.org/": true,
     "https://developer.microsoft.com/json-schemas/": true,
-    "https://biomejs.dev": true
+    "https://biomejs.dev": true,
   },
   "chat.tools.terminal.autoApprove": {
     "cd": true,
@@ -275,6 +275,7 @@
     "xargs": false,
     "eval": false,
     "Invoke-Expression": false,
-    "iex": false
-  }
+    "iex": false,
+  },
+  "dotfiles.repository": "tyankatsu0105/dotfiles",
 }
