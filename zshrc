@@ -3,7 +3,7 @@ autoload -Uz compinit
 compinit
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+# asdfのPATH設定は末尾のHomebrew asdf.shで行われます
 
 
 # Path to your oh-my-zsh installation.
@@ -138,4 +138,7 @@ prompt_context() {
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# asdf設定
+# ログインシェル・インタラクティブシェル両方で.zshrcが読み込まれるため、ここで一元管理
+export PATH="/opt/homebrew/opt/asdf/bin:$HOME/.asdf/shims:$PATH"
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
