@@ -17,3 +17,4 @@ fi
 sh "$SCRIPT_DIR/scripts/settings.sh"
 sh "$SCRIPT_DIR/scripts/keybindings.sh"
 sh "$SCRIPT_DIR/scripts/extensions.sh"
+sh "$SCRIPT_DIR/scripts/mcp.sh"
