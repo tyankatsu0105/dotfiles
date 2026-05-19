@@ -298,4 +298,6 @@
     "~/.copilot/skills": false,
     "~/.claude/skills": false,
   },
+  "workbench.browser.enableChatTools": false,
+  "livePreview.useIntegratedBrowser": false,
 }
