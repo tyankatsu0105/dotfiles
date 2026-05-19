@@ -119,7 +119,7 @@
     "bash",
     "perl",
     "open",
-    "git status"
+    "git status",
   ],
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-5.3-codex",
@@ -137,6 +137,9 @@
   "chat.agent.enabled": true,
   "chat.instructionsFilesLocations": {
     ".github/instructions": true,
+    ".claude/rules": false,
+    "~/.copilot/instructions": false,
+    "~/.claude/rules": false,
   },
   "github.copilot.nextEditSuggestions.enabled": true,
   "roo-cline.deniedCommands": [],
@@ -293,6 +296,6 @@
     ".claude/skills": false,
     ".agents/skills": false,
     "~/.copilot/skills": false,
-    "~/.claude/skills": false
-  }
+    "~/.claude/skills": false,
+  },
 }
