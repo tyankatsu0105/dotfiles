@@ -6,3 +6,4 @@ ln -sf "$PWD/gitconfig.local" "$HOME/.gitconfig.local"
 ln -sf "$PWD/gitignore_global" "$HOME/.gitignore_global"
 
 cd vscode && sh install.sh
+cd ../claude && sh install.sh
