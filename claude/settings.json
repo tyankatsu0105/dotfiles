@@ -1,6 +1,11 @@
 {
   "permissions": {
-    "allow": [],
-    "additionalDirectories": []
+    "allow": ["Bash(find *)", "Bash(npm run *)", "Bash(git *)", "Bash(grep *)"],
+    "deny": [
+      "Bash(curl:*)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
+    ]
   }
 }
