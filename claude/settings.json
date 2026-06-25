@@ -1,6 +1,29 @@
 {
   "permissions": {
-    "allow": ["Bash(find *)", "Bash(npm run *)", "Bash(git *)", "Bash(grep *)"],
+    "allow": [
+      "Bash(find *)",
+      "Bash(npm run *)",
+      "Bash(git *)",
+      "Bash(grep *)",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)",
+      "Bash(awk *)",
+      "Bash(xargs *)",
+      "Bash(sed *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(chmod *)",
+      "Bash(open *)",
+      "Bash(make *)",
+      "Bash(docker compose *)",
+      "Bash(gh pr *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "WebFetch(domain:github.com)"
+    ],
     "deny": [
       "Bash(curl:*)",
       "Read(./.env)",

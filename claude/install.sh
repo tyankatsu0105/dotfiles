@@ -8,3 +8,6 @@ ln -s "$SCRIPT_DIR/settings.json" "$CLAUDE_DIR/settings.json"
 
 rm -f "$CLAUDE_DIR/CLAUDE.md"
 ln -s "$SCRIPT_DIR/CLAUDE.md" "$CLAUDE_DIR/CLAUDE.md"
+
+rm -f "$CLAUDE_DIR/mcp.json"
+ln -s "$SCRIPT_DIR/mcp.json" "$CLAUDE_DIR/mcp.json"
