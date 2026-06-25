@@ -142,3 +142,4 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # ログインシェル・インタラクティブシェル両方で.zshrcが読み込まれるため、ここで一元管理
 export PATH="/opt/homebrew/opt/asdf/bin:$HOME/.asdf/shims:$PATH"
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+export PATH="$HOME/.local/bin:$PATH"

@@ -30,5 +30,6 @@
       "Read(./.env.*)",
       "Read(./secrets/**)"
     ]
-  }
+  },
+  "theme": "dark"
 }
